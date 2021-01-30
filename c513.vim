@@ -6,22 +6,29 @@ endif
 
 let g:colors_name = "c513"
 
-hi normal ctermfg=78 ctermbg=236 guifg=#5fd787 guibg=#303030
+hi normal cterm=none ctermfg=137 ctermbg=235 guifg=#af875f guibg=#262626
 
-hi comment ctermfg=245 ctermbg=236 guifg=#8a8a8a guibg=#303030
-hi constant ctermfg=75 ctermbg=236 guifg=#87d7ff guibg=#303030
-  hi string ctermfg=203 ctermbg=236 guifg=#ff5f5f guibg=#303030
-  hi character ctermfg=203 ctermbg=236 guifg=#ff5f5f guibg=#303030
-hi identifier ctermfg=78 ctermbg=236 guifg=#3fd787 guibg=#303030
-hi statement ctermfg=255 ctermbg=236 guifg=#eeeeee guibg=#303030
-hi preproc ctermfg=255 ctermbg=236 guifg=#eeeeee guibg=#303030
-hi type ctermfg=255 ctermbg=236 guifg=#eeeeee guibg=#303030
-hi special ctermfg=203 ctermbg=236 guifg=#dd5d5d guibg=#303030
-hi underlined cterm=underline ctermfg=255 ctermbg=236 gui=underline guifg=#eeeeee guibg=#303030
-hi error ctermfg=236 ctermbg=203 guifg=#303030 guibg=#ff5f5f
-hi todo ctermfg=236 ctermbg=227 guifg=#303030 guibg=#ffff5f
+hi comment cterm=none ctermfg=243 ctermbg=235 gui=none guifg=#767676 guibg=#262626
+hi constant cterm=none ctermfg=67 ctermbg=235 gui=none guifg=#5f87af guibg=#262626
+  hi string cterm=none ctermfg=167 ctermbg=235 gui=none guifg=#d75f5f guibg=#262626
+  hi character cterm=none ctermfg=167 ctermbg=235 gui=none guifg=#d75f5f guibg=#262626
+hi identifier cterm=none ctermfg=137 ctermbg=235 gui=none guifg=#af875f guibg=#262626
+hi statement cterm=none ctermfg=251 ctermbg=235 gui=none guifg=#c6c6c6 guibg=#262626
+hi preproc cterm=none ctermfg=251 ctermbg=235 gui=none guifg=#c6c6c6 guibg=#262626
+hi type cterm=none ctermfg=137 ctermbg=235 gui=none guifg=#af875f guibg=#262626
+hi special cterm=none ctermfg=167 ctermbg=235 gui=none guifg=#d75f5f guibg=#262626
+hi underlined cterm=underline ctermfg=251 ctermbg=235 gui=underline guifg=#c6c6c6 guibg=#262626
+hi error cterm=none ctermfg=235 ctermbg=167 gui=none guifg=#262626 guibg=#d75f5f
+hi todo cterm=none ctermfg=235 ctermbg=180 gui=none guifg=#262626 guibg=#d7af87
 
-hi linenr ctermfg=245 ctermbg=236 guifg=#8a8a8a guibg=#303030
+hi linenr cterm=none ctermfg=243 ctermbg=235 gui=none guifg=#767676 guibg=#262626
 hi cursorline cterm=none gui=none
-hi cursorlinenr cterm=none ctermfg=236 ctermbg=245 guifg=#303030 guibg=#8a8a8a
-hi matchparen cterm=none ctermfg=236 ctermbg=78 guifg=#303030 guibg=#5fd787
+hi cursorlinenr cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#6c6c6c
+hi matchparen cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#af875f
+hi colorcolumn cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#6c6c6c
+hi endofbuffer cterm=none ctermfg=67 ctermbg=235 gui=none guifg=#5f87af guibg=#262626
+hi statusline cterm=none ctermfg=235 ctermbg=137 gui=none guifg=#262626 guibg=#af875f
+hi statuslinenc cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#6c6c6c
+hi tablinefill cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#6c6c6c
+hi tablinesel cterm=none ctermfg=243 ctermbg=235 gui=none guifg=#767676 guibg=#262626
+hi tabline cterm=none ctermfg=235 ctermbg=242 gui=none guifg=#262626 guibg=#6c6c6c
