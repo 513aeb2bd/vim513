@@ -17,7 +17,7 @@ hi diffchange cterm=none ctermbg=233 gui=none guibg=#121212
 hi difftext cterm=none ctermfg=233 ctermbg=242 gui=none guifg=#121212 guibg=#6c6c6c
 
 hi endofbuffer cterm=none ctermfg=67 ctermbg=233 gui=none guifg=#5f87af guibg=#121212
-hi folded cterm=none ctermfg=107 ctermbg=233 gui=none guifg=87af5f guibg=#121212
+hi folded cterm=none ctermfg=107 ctermbg=233 gui=none guifg=#87af5f guibg=#121212
 hi linenr cterm=none ctermfg=242 ctermbg=233 gui=none guifg=#6c6c6c guibg=#121212
 hi matchparen cterm=none ctermfg=233 ctermbg=137 gui=none guifg=#121212 guibg=#af875f
 
