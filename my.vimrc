@@ -1,13 +1,15 @@
 set number    " show line number
 set cursorline    " show current line
 set colorcolumn=81    " draw color column
-set smartindent
-set autoindent
+set cindent
 set tabstop=4
 set expandtab
 set shiftwidth=4
+set hlsearch
+set incsearch
 set showcmd    " display command input
 set laststatus=2    " always show status line
+set nofoldenable
 set foldmethod=syntax
 set foldtext=MyFoldText()
 syntax on
