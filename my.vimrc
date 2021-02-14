@@ -2,6 +2,7 @@ set number    " show line number
 set cursorline    " show current line
 set colorcolumn=81    " draw color column
 set cindent
+set wildmenu
 set tabstop=4
 set expandtab
 set shiftwidth=4
