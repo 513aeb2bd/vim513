@@ -7,6 +7,7 @@ endif
 let g:colors_name = "c513"
 
 hi clear search
+hi clear matchparen
 
 hi colorcolumn cterm=none ctermbg=237 gui=none guibg=#3a3a3a
 
@@ -47,3 +48,5 @@ hi tablinefill cterm=none ctermfg=234 ctermbg=242 gui=none guifg=#1c1c1c guibg=#
 hi tablinesel cterm=none ctermfg=234 ctermbg=137 gui=none guifg=#1c1c1c guibg=#af875f
 
 hi vertsplit cterm=none ctermfg=242 ctermbg=242 gui=none guifg=#6c6c6c guibg=#6c6c6c
+
+hi wildmenu cterm=none ctermfg=234 ctermbg=65 gui=none guifg=1c1c1c guibg=#5f875f
