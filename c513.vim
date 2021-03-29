@@ -6,8 +6,9 @@ endif
 
 let g:colors_name = "c513"
 
-hi clear search
 hi clear matchparen
+hi clear search
+hi clear title
 
 hi colorcolumn cterm=none ctermbg=237 gui=none guibg=#3a3a3a
 
