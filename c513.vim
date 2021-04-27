@@ -24,7 +24,7 @@ hi endofbuffer cterm=none ctermfg=67 ctermbg=234
 hi folded cterm=none ctermfg=107 ctermbg=234
 hi linenr cterm=none ctermfg=242 ctermbg=234
 hi matchparen cterm=none ctermfg=67 ctermbg=234
-hi modemsg cterm=none ctermfg=107 ctermbg=234
+hi modemsg cterm=none ctermfg=234 ctermbg=107
 hi moremsg cterm=none ctermfg=107 ctermbg=234
 
 hi normal cterm=none ctermfg=137 ctermbg=234
