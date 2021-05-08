@@ -12,8 +12,8 @@ hi clear title
 
 hi colorcolumn cterm=none ctermbg=236
 
-hi cursorline cterm=none
-hi cursorlinenr cterm=none ctermfg=234 ctermbg=243
+hi cursorline cterm=none ctermbg=236
+hi cursorlinenr cterm=none ctermfg=242 ctermbg=236
 
 hi diffadd cterm=none ctermfg=234 ctermbg=65
 hi diffdelete cterm=none ctermfg=234 ctermbg=131
@@ -28,7 +28,7 @@ hi modemsg cterm=none ctermfg=234 ctermbg=107
 hi moremsg cterm=none ctermfg=107 ctermbg=234
 
 hi normal cterm=none ctermfg=137 ctermbg=234
-  hi comment cterm=none ctermfg=243 ctermbg=234
+  hi comment cterm=none ctermfg=244 ctermbg=234
   hi constant cterm=none ctermfg=67 ctermbg=234
     hi string cterm=none ctermfg=167 ctermbg=234
     hi character cterm=none ctermfg=167 ctermbg=234
