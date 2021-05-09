@@ -12,8 +12,8 @@ hi clear title
 
 hi colorcolumn cterm=none ctermbg=236
 
-hi cursorline cterm=none ctermbg=236
-hi cursorlinenr cterm=none ctermfg=242 ctermbg=236
+hi cursorline cterm=none ctermbg=235
+hi cursorlinenr cterm=none ctermfg=242 ctermbg=235
 
 hi diffadd cterm=none ctermfg=234 ctermbg=65
 hi diffdelete cterm=none ctermfg=234 ctermbg=131
