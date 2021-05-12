@@ -13,7 +13,7 @@ hi clear title
 hi colorcolumn cterm=none ctermbg=236
 
 hi cursorline cterm=none ctermbg=235
-hi cursorlinenr cterm=none ctermfg=242 ctermbg=235
+hi cursorlinenr cterm=none ctermfg=244 ctermbg=235
 
 hi diffadd cterm=none ctermfg=234 ctermbg=65
 hi diffdelete cterm=none ctermfg=234 ctermbg=131
@@ -22,7 +22,7 @@ hi difftext cterm=none ctermfg=234 ctermbg=242
 
 hi endofbuffer cterm=none ctermfg=67 ctermbg=234
 hi folded cterm=none ctermfg=107 ctermbg=234
-hi linenr cterm=none ctermfg=242 ctermbg=234
+hi linenr cterm=none ctermfg=244 ctermbg=234
 hi matchparen cterm=none ctermfg=67 ctermbg=234
 hi modemsg cterm=none ctermfg=234 ctermbg=107
 hi moremsg cterm=none ctermfg=107 ctermbg=234
@@ -34,7 +34,7 @@ hi normal cterm=none ctermfg=137 ctermbg=234
     hi character cterm=none ctermfg=167 ctermbg=234
   hi identifier cterm=none ctermfg=137 ctermbg=234
   hi statement cterm=none ctermfg=251 ctermbg=234
-  hi preproc cterm=none ctermfg=251 ctermbg=234
+  hi preproc cterm=none ctermfg=107 ctermbg=234
   hi type cterm=none ctermfg=137 ctermbg=234
     hi structure cterm=none ctermfg=251 ctermbg=234
   hi special cterm=none ctermfg=167 ctermbg=234
