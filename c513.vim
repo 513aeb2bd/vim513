@@ -9,6 +9,7 @@ let g:colors_name = "c513"
 hi clear matchparen
 hi clear search
 hi clear title
+hi clear todo
 
 hi colorcolumn cterm=none ctermbg=236
 
@@ -40,7 +41,7 @@ hi normal cterm=none ctermfg=137 ctermbg=234
   hi special cterm=none ctermfg=167 ctermbg=234
   hi underlined cterm=underline ctermfg=251 ctermbg=234
   hi error cterm=none ctermfg=234 ctermbg=167
-  hi todo cterm=none ctermfg=234 ctermbg=180
+  hi todo cterm=standout
 
 hi question cterm=none ctermfg=107 ctermbg=234
 hi search cterm=reverse
