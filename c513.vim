@@ -14,7 +14,7 @@ hi clear todo
 hi colorcolumn cterm=none ctermbg=236
 
 hi cursorline cterm=none ctermbg=235
-hi cursorlinenr cterm=none ctermfg=251 ctermbg=235
+hi cursorlinenr cterm=reverse ctermfg=244 ctermbg=234
 
 hi diffadd cterm=none ctermfg=234 ctermbg=65
 hi diffdelete cterm=none ctermfg=234 ctermbg=131
@@ -40,7 +40,7 @@ hi normal cterm=none ctermfg=137 ctermbg=234
     hi structure cterm=none ctermfg=251 ctermbg=234
   hi special cterm=none ctermfg=167 ctermbg=234
   hi underlined cterm=underline ctermfg=251 ctermbg=234
-  hi error cterm=none ctermfg=234 ctermbg=167
+  hi error cterm=reverse ctermfg=167 ctermbg=234
   hi todo cterm=standout
 
 hi question cterm=none ctermfg=107 ctermbg=234
@@ -51,6 +51,7 @@ hi statuslinenc cterm=none ctermfg=234 ctermbg=242
 hi tabline cterm=none ctermfg=234 ctermbg=242
 hi tablinefill cterm=none ctermfg=234 ctermbg=242
 hi tablinesel cterm=none ctermfg=234 ctermbg=137
+hi link title normal
 
 hi vertsplit cterm=none ctermfg=242 ctermbg=242
 
