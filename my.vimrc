@@ -3,9 +3,9 @@ set cursorline  " show current line
 set colorcolumn=81  " draw color column
 set cindent
 set wildmenu
-set tabstop=4
-set expandtab
-set shiftwidth=4
+set tabstop=2
+set expandtab " convert tabs to spaces
+set shiftwidth=2
 set hlsearch
 set incsearch
 set showcmd  " display command input
