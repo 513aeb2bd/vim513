@@ -1,7 +1,7 @@
 hi clear
 
 if exists("syntax_on")
-	syntax reset
+  syntax reset
 endif
 
 let g:colors_name = "c513"
@@ -27,6 +27,8 @@ hi linenr cterm=none ctermfg=244 ctermbg=234
 hi matchparen cterm=none ctermfg=67 ctermbg=234
 hi modemsg cterm=none ctermfg=234 ctermbg=107
 hi moremsg cterm=none ctermfg=107 ctermbg=234
+hi warningmsg cterm=none ctermfg=234 ctermbg=107
+hi errormsg cterm=none ctermfg=234 ctermbg=167
 
 hi normal cterm=none ctermfg=137 ctermbg=234
   hi comment cterm=none ctermfg=244 ctermbg=234
