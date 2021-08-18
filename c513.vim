@@ -1,7 +1,7 @@
 hi clear
 
 if exists("syntax_on")
-  syntax reset
+	syntax reset
 endif
 
 let g:colors_name = "c513"
@@ -11,9 +11,9 @@ hi clear search
 hi clear title
 hi clear todo
 
-hi colorcolumn cterm=none ctermbg=236
+hi colorcolumn cterm=none ctermbg=237
 
-hi cursorline cterm=none ctermbg=235
+hi cursorline cterm=none ctermbg=236
 hi cursorlinenr cterm=reverse ctermfg=244 ctermbg=234
 
 hi diffadd cterm=none ctermfg=234 ctermbg=65
@@ -47,14 +47,15 @@ hi normal cterm=none ctermfg=137 ctermbg=234
 
 hi question cterm=none ctermfg=107 ctermbg=234
 hi search cterm=reverse
-hi statusline cterm=none ctermfg=234 ctermbg=137
-hi statuslinenc cterm=none ctermfg=234 ctermbg=242
+hi specialkey cterm=none ctermfg=86 ctermbg=234
+hi statusline cterm=none ctermfg=234 ctermbg=242
+hi statuslinenc cterm=none ctermfg=244 ctermbg=234
 
 hi tabline cterm=none ctermfg=234 ctermbg=242
 hi tablinefill cterm=none ctermfg=234 ctermbg=242
 hi tablinesel cterm=none ctermfg=234 ctermbg=137
 hi link title normal
 
-hi vertsplit cterm=none ctermfg=242 ctermbg=242
+hi vertsplit cterm=none ctermfg=244 ctermbg=234
 
-hi wildmenu cterm=none ctermfg=234 ctermbg=180
+hi wildmenu cterm=none ctermfg=234 ctermbg=137
