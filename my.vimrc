@@ -3,9 +3,9 @@
 lang mes POSIX
 set   cindent
 set   colorcolumn=81  " draw color column
-set   cursorline  " show current line
+set nocursorline  " hide current line
 set   expandtab " convert tabs to spaces
-set   fillchars=vert:│,stlnc:▁
+set   fillchars=vert:|,stl:_,stlnc:_
 set nofoldenable
 set   foldmethod=syntax
 set   foldtext=MyFoldText()
