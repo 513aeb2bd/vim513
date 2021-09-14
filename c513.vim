@@ -49,12 +49,12 @@ hi normal cterm=none ctermfg=137 ctermbg=234
 hi question cterm=none ctermfg=107 ctermbg=234
 hi search cterm=reverse
 hi specialkey cterm=none ctermfg=86 ctermbg=234
-hi statusline cterm=none ctermfg=67 ctermbg=234
-hi statuslinenc cterm=none ctermfg=251 ctermbg=234
+hi statusline cterm=none ctermfg=139 ctermbg=234
+hi statuslinenc cterm=none ctermfg=139 ctermbg=234
 
 hi tabline cterm=none ctermfg=251 ctermbg=236
 hi tablinefill cterm=none ctermfg=251 ctermbg=236
-hi tablinesel cterm=none ctermfg=67 ctermbg=236
+hi tablinesel cterm=none ctermfg=139 ctermbg=236
 hi link title normal
 
 hi vertsplit cterm=none ctermfg=244 ctermbg=234
