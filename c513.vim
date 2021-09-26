@@ -57,6 +57,6 @@ hi tablinefill cterm=none ctermfg=251 ctermbg=236
 hi tablinesel cterm=none ctermfg=139 ctermbg=236
 hi link title normal
 
-hi vertsplit cterm=none ctermfg=244 ctermbg=234
+hi vertsplit cterm=none ctermfg=139 ctermbg=234
 
 hi wildmenu cterm=none ctermfg=234 ctermbg=137
