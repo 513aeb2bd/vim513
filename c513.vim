@@ -22,7 +22,7 @@ hi diffdelete cterm=none ctermfg=234 ctermbg=131
 hi diffchange cterm=none ctermbg=234
 hi difftext cterm=none ctermfg=234 ctermbg=242
 
-hi endofbuffer cterm=none ctermfg=67 ctermbg=234
+hi endofbuffer cterm=none ctermfg=86 ctermbg=234
 hi folded cterm=none ctermfg=107 ctermbg=234
 hi linenr cterm=none ctermfg=244 ctermbg=234
 hi matchparen cterm=none ctermfg=67 ctermbg=234
@@ -52,8 +52,8 @@ hi specialkey cterm=none ctermfg=86 ctermbg=234
 hi statusline cterm=none ctermfg=139 ctermbg=234
 hi statuslinenc cterm=none ctermfg=139 ctermbg=234
 
-hi tabline cterm=none ctermfg=251 ctermbg=236
-hi tablinefill cterm=none ctermfg=251 ctermbg=236
+hi tabline cterm=none ctermfg=244 ctermbg=236
+hi tablinefill cterm=none ctermfg=244 ctermbg=236
 hi tablinesel cterm=none ctermfg=139 ctermbg=236
 hi link title normal
 
