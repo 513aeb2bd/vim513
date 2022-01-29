@@ -1,14 +1,13 @@
 " .vimrc
 
 lang mes POSIX
+set   backspace=indent,start
 set   cindent
-set   colorcolumn=81  " draw color column
-set nocursorline  " hide current line
+set   colorcolumn=73  " draw color column
+set   cursorline  " show current line
 set   expandtab " convert tabs to spaces
-set   fillchars=vert:|,stl:_,stlnc:_
+set   fillchars=vert:\|,stl:_,stlnc:_
 set nofoldenable
-set   foldmethod=syntax
-set   foldtext=MyFoldText()
 set   hlsearch
 set   ignorecase
 set   incsearch
@@ -23,13 +22,9 @@ set   tabstop=2
 set   wildmenu
 syntax on
 color c513
+noh
 
-function! MyFoldText()
-  let str_line_start = getline(v:foldstart)
-  let str_line_end = getline(v:foldend)
-  let str_line_end = substitute(str_line_end, '\s\{0,}', '', '')
-
-  return str_line_start . ' ... ' . str_line_end . ' '
-endfunction
+syntax keyword cTodo contained NOTE
+syntax keyword asmTodo contained note
 
 " endfile: .vimrc
