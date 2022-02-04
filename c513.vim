@@ -6,6 +6,7 @@ endif
 
 let g:colors_name = "c513"
 
+hi clear directory
 hi clear matchparen
 hi clear search
 hi clear title
@@ -58,7 +59,9 @@ hi tablinefill    cterm=none      ctermfg=139 ctermbg=234
 hi tablinesel     cterm=none      ctermfg=139 ctermbg=236
 
 hi vertsplit      cterm=none      ctermfg=139 ctermbg=234
+hi visual         cterm=none                  ctermbg=238
 
 hi wildmenu       cterm=none      ctermfg=234 ctermbg=137
 
+hi link directory preproc
 hi link title normal
