@@ -11,6 +11,7 @@ set   colorcolumn=73  " draw color column
 set   cursorline  " show current line
 set noesckeys  " disable esc function keys
 set   expandtab  " convert tabs to spaces
+set   fileignorecase
 set   fillchars=vert:\|,stl:·,stlnc:·
 set   foldenable
 set   foldmarker={{,}}
