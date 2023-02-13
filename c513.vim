@@ -90,7 +90,7 @@ hi link nontext     specialkey
 hi link question    wildmenu
 hi link tabline     statusline
 hi link tablinefill statusline
-hi link tablinesl   wildmenu
+hi link tablinesel  wildmenu
 hi link title       normal
 hi link warningmsg  error
 
