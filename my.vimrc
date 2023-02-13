@@ -11,7 +11,7 @@ set   encoding=utf-8
 
 " options for content uniformity
 set   cindent
-set   cinoptions=Ls,:0
+set   cinoptions=Ls,:0,l1,(s,U1
 set   expandtab   " convert tabs to spaces
 set   foldenable
 set   foldmethod=marker
@@ -21,7 +21,6 @@ set   listchars=tab:\ \ ·,trail:·,extends:>
 set   shiftround
 set   shiftwidth=0
 set   tabstop=3
-set nowrap
 
 set   backspace=indent,eol,start
 set   colorcolumn=73   " draw color column
@@ -42,6 +41,7 @@ set   virtualedit=block
 set   wildmenu
 set   wildoptions=pum
 set      pumheight=16
+set nowrap
 
 " options for gui
 set   belloff=all
