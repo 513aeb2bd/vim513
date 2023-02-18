@@ -48,7 +48,7 @@ hi difftext         cterm=none      ctermfg=242 ctermbg=234
 
 hi folded           cterm=none      ctermfg=181 ctermbg=234
 hi ignore           cterm=none      ctermfg=244 ctermbg=234
-hi matchparen       cterm=none      ctermfg=67  ctermbg=234
+hi matchparen       cterm=none      ctermfg=186 ctermbg=234
 
 hi normal           cterm=none      ctermfg=137 ctermbg=234
   hi comment        cterm=none      ctermfg=244 ctermbg=234
