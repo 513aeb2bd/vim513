@@ -11,7 +11,7 @@ set   encoding=utf-8
 
 " options for content uniformity
 set   cindent
-set   cinoptions=Ls,:0,l1,u2s,U1,c0,C1
+set   cinoptions=Ls,:0,l1,U1,c0,C1
 set   expandtab   " convert tabs to spaces
 set   foldenable
 set   foldmarker=/[[,/]]
