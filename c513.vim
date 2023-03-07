@@ -37,18 +37,18 @@ hi clear tablinesel
 hi clear title
 hi clear warningmsg
 
-hi colorcolumn     cterm=none                  ctermbg=238
+hi colorcolumn     cterm=none                  ctermbg=237
 
 hi diffadd         cterm=none      ctermfg=65  ctermbg=234
 hi diffdelete      cterm=none      ctermfg=131 ctermbg=234
-hi diffchange      cterm=none      ctermfg=242 ctermbg=234
-hi difftext        cterm=none      ctermfg=242 ctermbg=234
+hi diffchange      cterm=none      ctermfg=110 ctermbg=234
+hi difftext        cterm=none      ctermfg=110 ctermbg=234
 
 hi folded          cterm=none      ctermfg=181 ctermbg=234
 hi matchparen      cterm=none      ctermfg=186 ctermbg=234
 
 hi normal          cterm=none      ctermfg=137 ctermbg=234
-hi comment         cterm=none      ctermfg=244 ctermbg=234
+hi comment         cterm=none      ctermfg=243 ctermbg=234
 hi constant        cterm=none      ctermfg=67  ctermbg=234
    hi string       cterm=none      ctermfg=167 ctermbg=234
    hi character    cterm=none      ctermfg=167 ctermbg=234
@@ -73,7 +73,7 @@ hi statusline      cterm=none      ctermfg=139 ctermbg=234
 hi statuslinenc    cterm=none      ctermfg=139 ctermbg=234
 
 hi vertsplit       cterm=none      ctermfg=139 ctermbg=234
-hi visual          cterm=none                  ctermbg=238
+hi visual          cterm=none                  ctermbg=239
 
 hi wildmenu        cterm=none      ctermfg=152 ctermbg=234
 
