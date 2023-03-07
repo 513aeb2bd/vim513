@@ -71,7 +71,7 @@ hi search         cterm=none      ctermfg=208 ctermbg=231
 hi tablinesel     cterm=none      ctermfg=16  ctermbg=231
 
 hi vertsplit      cterm=none      ctermfg=16  ctermbg=231
-hi visual         cterm=none                  ctermbg=253
+hi visual         cterm=none                  ctermbg=158
 
 hi wildmenu       cterm=none      ctermfg=16  ctermbg=231
 
