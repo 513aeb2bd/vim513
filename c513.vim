@@ -74,45 +74,43 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-hi colorcolumn     cterm=none                    guibg=#4f4f4f
-hi cursorcolumn    cterm=none                    guibg=#393939
-hi cursorline      cterm=none                    guibg=#393939
+hi colorcolumn     cterm=bold           ctermfg=7 ctermbg=3               guibg=#4f4f4f
+hi cursorcolumn    cterm=bold                     ctermbg=0               guibg=#393939
+hi cursorline      cterm=bold                     ctermbg=0               guibg=#393939
 
-hi diffadd         cterm=none      guifg=#65a765 guibg=#232323
-hi diffdelete      cterm=none      guifg=#a76565 guibg=#232323
-hi diffchange      cterm=none      guifg=#91a7d3 guibg=#232323
-hi difftext        cterm=none      guifg=#91a7d3 guibg=#232323
+hi diffadd         cterm=bold           ctermfg=2           guifg=#65a765 guibg=#232323
+hi diffdelete      cterm=bold           ctermfg=1           guifg=#a76565 guibg=#232323
+hi diffchange      cterm=bold           ctermfg=4           guifg=#91a7d3 guibg=#232323
+hi difftext        cterm=bold           ctermfg=4           guifg=#91a7d3 guibg=#232323
 
-hi folded          cterm=none      guifg=#e9a7a7 guibg=#232323
+hi folded          cterm=none           ctermfg=5           guifg=#e9a7a7 guibg=#232323
 
-hi normal          cterm=none      guifg=#bd9165 guibg=#232323
-hi comment         cterm=none      guifg=#919191 guibg=#232323
-hi constant        cterm=none      guifg=#6591bd guibg=#232323
-hi    string       cterm=none      guifg=#d36565 guibg=#232323
-hi    character    cterm=none      guifg=#d36565 guibg=#232323
-hi identifier      cterm=none      guifg=#bd9165 guibg=#232323
-hi statement       cterm=none      guifg=#d3d3d3 guibg=#232323
-hi preproc         cterm=none      guifg=#7ba765 guibg=#232323
-hi type            cterm=none      guifg=#bd9165 guibg=#232323
-hi    storageclass cterm=none      guifg=#d3d3d3 guibg=#232323
-hi    structure    cterm=none      guifg=#d3d3d3 guibg=#232323
-hi special         cterm=none      guifg=#d36565 guibg=#232323
-hi underlined      cterm=underline guifg=#d3d3d3 guibg=#232323
-hi error           cterm=none      guifg=#ff4f4f guibg=#232323
-hi todo            cterm=none      guifg=#4fd3bd guibg=#232323
+hi normal          cterm=bold           ctermfg=7           guifg=#d3d3d3 guibg=#232323
+hi comment         cterm=bold           ctermfg=0           guifg=#919191 guibg=#232323
+hi constant        cterm=bold           ctermfg=4           guifg=#6591bd guibg=#232323
+hi    string       cterm=bold           ctermfg=1           guifg=#d36565 guibg=#232323
+hi    character    cterm=bold           ctermfg=1           guifg=#d36565 guibg=#232323
+hi statement       cterm=bold           ctermfg=5           guifg=#d3d3d3 guibg=#232323
+hi preproc         cterm=bold           ctermfg=2           guifg=#7ba765 guibg=#232323
+hi type            cterm=bold           ctermfg=7           guifg=#bd9165 guibg=#232323
+hi    storageclass cterm=bold           ctermfg=5           guifg=#d3d3d3 guibg=#232323
+hi    structure    cterm=bold           ctermfg=5           guifg=#d3d3d3 guibg=#232323
+hi special         cterm=bold           ctermfg=1           guifg=#d36565 guibg=#232323
+hi underlined      cterm=underline                          guifg=#d3d3d3 guibg=#232323
+hi error           cterm=bold           ctermfg=1           guifg=#ff4f4f guibg=#232323
+hi todo            cterm=bold           ctermfg=6           guifg=#4fd3bd guibg=#232323
 
-hi pmenu           cterm=none      guifg=#bd91bd guibg=#393939
-hi pmenusbar       cterm=none                    guibg=#393939
-hi pmenusel        cterm=none      guifg=#a7d3d3 guibg=#393939
-hi pmenuthumb      cterm=none                    guibg=#4f4f4f
-hi search          cterm=none      guifg=#d3d391
-hi specialkey      cterm=none      guifg=#65d3a7 guibg=#232323
-hi statusline      cterm=none      guifg=#bd91bd guibg=#232323
-hi statuslinenc    cterm=none      guifg=#bd91bd guibg=#232323
+hi pmenu           cterm=none           ctermfg=3           guifg=#bd91bd guibg=#393939
+hi pmenusbar       cterm=none           ctermfg=3                         guibg=#393939
+hi pmenusel        cterm=bold           ctermfg=6           guifg=#a7d3d3 guibg=#393939
+hi pmenuthumb      cterm=none           ctermfg=3                         guibg=#4f4f4f
+hi search          cterm=none           ctermfg=3           guifg=#d3d391
+hi specialkey      cterm=bold           ctermfg=6           guifg=#65d3a7
+hi statusline      cterm=none           ctermfg=3           guifg=#bd91bd guibg=#232323
 
-hi visual          cterm=none                    guibg=#4f4f4f
+hi visual          cterm=nocombine,none ctermfg=0 ctermbg=7               guibg=#4f4f4f
 
-hi wildmenu        cterm=none      guifg=#a7d3d3 guibg=#232323
+hi wildmenu        cterm=bold           ctermfg=6           guifg=#a7d3d3 guibg=#232323
 
 hi link directory   preproc
 hi link endofbuffer statusline
