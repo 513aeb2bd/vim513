@@ -74,7 +74,7 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-hi colorcolumn     cterm=bold           ctermfg=7 ctermbg=3               guibg=#4f4f4f
+hi colorcolumn     cterm=bold           ctermfg=7 ctermbg=3
 
 hi diffadd         cterm=bold           ctermfg=2           guifg=#65a765 guibg=#232323
 hi diffdelete      cterm=bold           ctermfg=1           guifg=#a76565 guibg=#232323
@@ -106,7 +106,7 @@ hi search          cterm=bold           ctermfg=3           guifg=#d3d391
 hi specialkey      cterm=bold           ctermfg=6           guifg=#65d3a7
 hi statusline      cterm=none           ctermfg=3           guifg=#bd91bd guibg=#232323
 
-hi visual          cterm=nocombine,none ctermfg=0 ctermbg=6               guibg=#4f4f4f
+hi visual          cterm=nocombine,none ctermfg=0 ctermbg=6
 
 hi wildmenu        cterm=bold           ctermfg=6           guifg=#a7d3d3 guibg=#232323
 
