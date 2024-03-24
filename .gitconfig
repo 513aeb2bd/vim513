@@ -3,7 +3,7 @@
 [init]
    defaultBranch = main
 [alias]
-   br = branch
+   bran = branch -v
    ch = checkout
    com = commit
    hist = log --all --graph --oneline
