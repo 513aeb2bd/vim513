@@ -1,13 +1,17 @@
+[user]
+   name = Detchurrie Njinn
+   email = detchurrie@gmail.com
 [core]
    editor = vim
 [init]
    defaultBranch = main
 [alias]
-   stat = status
-   ch = checkout
    br = branch
+   ch = checkout
    com = commit
    hist = log --all --graph --oneline
    history = log --all --graph --oneline
+   stat = status
+   sh = show -s
 [merge]
    tool = vimdiff
