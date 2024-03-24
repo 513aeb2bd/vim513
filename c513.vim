@@ -28,6 +28,7 @@ hi clear foldcolumn
 hi clear folded
 hi clear ignore
 hi clear incsearch
+hi clear label
 hi clear linenr
 hi clear matchparen
 hi clear modemsg
@@ -78,9 +79,10 @@ hi folded                       ctermfg=5
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
 hi normal                       ctermfg=7
+hi    link label        normal
 hi    link title        normal
 hi    link type         normal
-hi preproc      cterm=bold      ctermfg=2
+hi preproc                      ctermfg=2
 hi    link directory    preproc
 hi search       cterm=bold      ctermfg=3
 hi    link incsearch    search
