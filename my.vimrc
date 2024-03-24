@@ -1,9 +1,3 @@
-" .vimrc
-
-" .
-
-" .
-
 lang mes POSIX
 " cd your_default_dir
 
@@ -24,6 +18,7 @@ set   tabstop=3
 
 set   backspace=indent,eol,start
 set   colorcolumn=73   " draw color column
+set nocursorline
 set   esckeys   " disable esc function keys
 set   fileignorecase
 set   fillchars=vert:\|,stl:=,stlnc:·
@@ -36,6 +31,8 @@ set   ruler
 set   scrolloff=3   " scroll before some lines
 set   shortmess=filmnxtToO
 set   showcmd   " display command input
+set   sidescroll=24
+set nostartofline   " keep cursor column
 set   timeoutlen=0
 set   virtualedit=block
 set   wildmenu

@@ -1,0 +1,13 @@
+[core]
+   editor = vim
+[init]
+   defaultBranch = main
+[alias]
+   stat = status
+   ch = checkout
+   br = branch
+   com = commit
+   hist = log --all --graph --oneline
+   history = log --all --graph --oneline
+[merge]
+   tool = vimdiff
