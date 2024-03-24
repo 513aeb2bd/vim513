@@ -1,9 +1,3 @@
-" cdetch.vim
-
-" .
-
-" .
-
 hi clear
 
 if exists("syntax_on")
@@ -132,9 +126,3 @@ hi link hexdataodd       normal
 hi link hexdataeven      normal
 hi link hexchecksum      statement
 hi link hexnoaddress     hexdataaddress
-
-" .
-
-" .
-
-" endfile: cdetch.vim
