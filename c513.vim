@@ -26,6 +26,7 @@ hi clear error
 hi clear errormsg
 hi clear foldcolumn
 hi clear folded
+hi clear identifier
 hi clear ignore
 hi clear incsearch
 hi clear label
@@ -91,6 +92,7 @@ hi specialkey   cterm=bold      ctermfg=6           guifg=#65e9e9
 hi    link nontext      specialkey
 hi    link todo         specialkey
 hi statement    cterm=bold      ctermfg=5           guifg=#e965e9
+hi    link identifier   statement
 hi statusline                   ctermfg=3           guifg=#919139
 hi    link endofbuffer  statusline
 hi    link linenr       statusline
