@@ -21,13 +21,14 @@ set   colorcolumn=73   " draw color column
 set nocursorline
 set   esckeys   " disable esc function keys
 set   fileignorecase
-set   fillchars=vert:\|,stl:=,stlnc:·
+set   fillchars=vert:\|,stl:=,stlnc:.
 set   hlsearch
 set   ignorecase
 set   incsearch
 set   laststatus=2   " always show status line
 set nonumber   " hide line number
 set   ruler
+set   rulerformat=%16(%5(%l%)/%-6(%L,%)%v%)
 set   scrolloff=3   " scroll before some lines
 set   shortmess=filmnxtToO
 set   showcmd   " display command input
