@@ -11,7 +11,7 @@ set   foldenable
 set   foldmarker=/[[,/]]
 set   foldmethod=marker
 set   list
-set   listchars=tab:\ \ ·,trail:·,extends:>
+set   listchars=tab:·-,trail:·,extends:>
 set   shiftround
 set   shiftwidth=0
 set   tabstop=3
