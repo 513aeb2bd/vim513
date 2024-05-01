@@ -22,6 +22,7 @@ set nocursorline
 set   esckeys   " disable esc function keys
 set   fileignorecase
 set   fillchars=vert:\|,stl:=,stlnc:.
+set   formatoptions=q   " only enable gq formatting
 set   hlsearch
 set   ignorecase
 set   incsearch
@@ -34,6 +35,7 @@ set   shortmess=filmnxtToO
 set   showcmd   " display command input
 set   sidescroll=24
 set nostartofline   " keep cursor column
+set   textwidth=72
 set   timeoutlen=0
 set   virtualedit=block
 set   wildmenu
