@@ -28,7 +28,7 @@ set   incsearch
 set   laststatus=2   " always show status line
 set nonumber   " hide line number
 set   ruler
-set   rulerformat=%16(%5(%l%)/%-6(%L,%)%v%)
+set   rulerformat=%18(%6(%l%)/%-7(%L,%)%v%)
 set   scrolloff=3   " scroll before some lines
 set   shortmess=filmnxtToO
 set   showcmd   " display command input

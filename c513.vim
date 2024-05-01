@@ -36,6 +36,7 @@ hi clear modemsg
 hi clear moremsg
 hi clear nontext
 hi clear normal
+hi clear operator
 hi clear pmenu
 hi clear pmenusbar
 hi clear pmenusel
@@ -76,11 +77,13 @@ hi diffdelete   cterm=bold      ctermfg=1           guifg=#e96565
 hi error        cterm=bold      ctermfg=1           guifg=#e96565
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded                       ctermfg=5           guifg=#913991
+hi folded                       ctermfg=2           guifg=#399139
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
+hi label                        ctermfg=6           guifg=#399191
 hi normal                       ctermfg=7           guifg=#bdbdbd
-hi    link label        normal
+hi    link identifier   normal
+hi    link operator     normal
 hi    link title        normal
 hi    link type         normal
 hi preproc                      ctermfg=2           guifg=#399139
@@ -92,7 +95,6 @@ hi specialkey   cterm=bold      ctermfg=6           guifg=#65e9e9
 hi    link nontext      specialkey
 hi    link todo         specialkey
 hi statement    cterm=bold      ctermfg=5           guifg=#e965e9
-hi    link identifier   statement
 hi statusline                   ctermfg=3           guifg=#919139
 hi    link endofbuffer  statusline
 hi    link linenr       statusline
@@ -103,8 +105,9 @@ hi    link statuslinenc statusline
 hi    link tabline      statusline
 hi    link tablinefill  statusline
 hi    link vertsplit    statusline
-hi storageclass cterm=bold      ctermfg=5           guifg=#e965e9
+hi storageclass                 ctermfg=6           guifg=#399191
 hi    link structure    storageclass
+hi    link typedef      storageclass
 hi string       cterm=bold      ctermfg=1           guifg=#e96565
 hi    link special      string
 hi underlined   cterm=underline
