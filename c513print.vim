@@ -1,9 +1,3 @@
-" c513print.vim
-
-" .
-
-" .
-
 hi clear
 
 if exists("syntax_on")
@@ -85,9 +79,3 @@ hi link statuslinenc comment
 hi link tabline      comment
 hi link tablinefill  comment
 hi link title        normal
-
-" .
-
-" .
-
-" endfile: c513print.vim

@@ -65,37 +65,37 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-hi character    cterm=bold      ctermfg=1           guifg=#e96565
-hi colorcolumn  cterm=nocombine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#919139
-hi comment      cterm=bold      ctermfg=0           guifg=#656565
+hi character    cterm=bold      ctermfg=1           guifg=#d86868
+hi colorcolumn  cterm=nocombine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#909040
+hi comment      cterm=bold      ctermfg=0           guifg=#606060
 hi    link ignore       comment
-hi constant     cterm=bold      ctermfg=4           guifg=#6565e9
-hi diffadd      cterm=bold      ctermfg=2           guifg=#65e965
-hi diffchange   cterm=bold      ctermfg=4           guifg=#6565e9
+hi constant     cterm=bold      ctermfg=4           guifg=#6868d8
+hi diffadd      cterm=bold      ctermfg=2           guifg=#68d868
+hi diffchange   cterm=bold      ctermfg=4           guifg=#6868d8
 hi    link difftext     diffchange
-hi diffdelete   cterm=bold      ctermfg=1           guifg=#e96565
-hi error        cterm=bold      ctermfg=1           guifg=#e96565
+hi diffdelete   cterm=bold      ctermfg=1           guifg=#d86868
+hi error        cterm=bold      ctermfg=1           guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded                       ctermfg=2           guifg=#399139
+hi folded                       ctermfg=2           guifg=#409040
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
-hi label                        ctermfg=6           guifg=#399191
-hi normal                       ctermfg=7           guifg=#bdbdbd
+hi label                        ctermfg=6           guifg=#409090
+hi normal                       ctermfg=7           guifg=#b8b8b8
 hi    link identifier   normal
 hi    link operator     normal
 hi    link title        normal
 hi    link type         normal
-hi preproc                      ctermfg=2           guifg=#399139
+hi preproc                      ctermfg=2           guifg=#409040
 hi    link directory    preproc
-hi search       cterm=bold      ctermfg=3           guifg=#e9e965
+hi search       cterm=bold      ctermfg=3           guifg=#d8d868
 hi    link incsearch    search
 hi    link matchparen   search
-hi specialkey   cterm=bold      ctermfg=6           guifg=#65e9e9
+hi specialkey   cterm=bold      ctermfg=6           guifg=#68d8d8
 hi    link nontext      specialkey
 hi    link todo         specialkey
-hi statement    cterm=bold      ctermfg=5           guifg=#e965e9
-hi statusline                   ctermfg=3           guifg=#919139
+hi statement    cterm=bold      ctermfg=5           guifg=#d868d8
+hi statusline                   ctermfg=3           guifg=#909040
 hi    link endofbuffer  statusline
 hi    link linenr       statusline
 hi    link pmenu        statusline
@@ -105,14 +105,14 @@ hi    link statuslinenc statusline
 hi    link tabline      statusline
 hi    link tablinefill  statusline
 hi    link vertsplit    statusline
-hi storageclass                 ctermfg=6           guifg=#399191
+hi storageclass                 ctermfg=6           guifg=#409090
 hi    link structure    storageclass
 hi    link typedef      storageclass
-hi string       cterm=bold      ctermfg=1           guifg=#e96565
+hi string       cterm=bold      ctermfg=1           guifg=#d86868
 hi    link special      string
 hi underlined   cterm=underline
-hi visual       cterm=nocombine ctermfg=0 ctermbg=6 guifg=#000000 guibg=#399191
-hi wildmenu     cterm=bold      ctermfg=6           guifg=#65e9e9
+hi visual       cterm=nocombine ctermfg=0 ctermbg=6 guifg=#000000 guibg=#409090
+hi wildmenu     cterm=bold      ctermfg=6           guifg=#68d8d8
 hi    link modemsg      wildmenu
 hi    link moremsg      wildmenu
 hi    link pmenusel     wildmenu

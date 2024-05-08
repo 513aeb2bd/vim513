@@ -5,13 +5,13 @@ set   encoding=utf-8
 
 " options for content uniformity
 set   cindent
-set   cinoptions=Ls,:0,l1,U1,c0,C1
+set   cinoptions=Ls,:0,l1,U1,c0,C1,t0
 set   expandtab   " convert tabs to spaces
 set   foldenable
 set   foldmarker=/[[,/]]
 set   foldmethod=marker
 set   list
-set   listchars=tab:·-,trail:·,extends:>
+set   listchars=tab:^.,trail:-,extends:>
 set   shiftround
 set   shiftwidth=0
 set   tabstop=3
@@ -60,9 +60,3 @@ color c513
 syntax on
 
 noh
-
-" .
-
-" .
-
-" endfile: .vimrc
