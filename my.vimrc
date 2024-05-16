@@ -1,5 +1,4 @@
 lang mes POSIX
-" cd your_default_dir
 
 set   encoding=utf-8
 
@@ -11,7 +10,7 @@ set   foldenable
 set   foldmarker=/[[,/]]
 set   foldmethod=marker
 set   list
-set   listchars=tab:^.,trail:-,extends:>
+set   listchars=tab:^.,trail:~,extends:>
 set   shiftround
 set   shiftwidth=0
 set   tabstop=3
@@ -28,8 +27,9 @@ set   ignorecase
 set   incsearch
 set   laststatus=2   " always show status line
 set nonumber   " hide line number
+set   pumheight=16
 set   ruler
-set   rulerformat=%18(%6(%l%)/%-7(%L,%)%v%)
+set   rulerformat=%20(%7(%l%)/%-8(%L,%)%v%)
 set   scrolloff=3   " scroll before some lines
 set   shortmess=filmnxtToO
 set   showcmd   " display command input
@@ -40,7 +40,6 @@ set   timeoutlen=0
 set   virtualedit=block
 set   wildmenu
 set   wildoptions=pum
-set      pumheight=16
 set nowrap
 
 " options for gui
@@ -54,7 +53,9 @@ set   linespace=0
 set   mouse=
 
 " map keys
-nnoremap K k
+nnoremap K <nop>
+nnoremap N Nzz
+nnoremap n nzz
 
 color c513
 syntax on
