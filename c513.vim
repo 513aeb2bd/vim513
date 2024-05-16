@@ -67,6 +67,7 @@ hi clear wildmenu
 
 hi character    cterm=bold      ctermfg=1           guifg=#d86868
 hi colorcolumn  cterm=nocombine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#909040
+hi    link pmenuthumb   colorcolumn
 hi comment      cterm=bold      ctermfg=0           guifg=#606060
 hi    link ignore       comment
 hi constant     cterm=bold      ctermfg=4           guifg=#6868d8
@@ -100,7 +101,6 @@ hi    link endofbuffer  statusline
 hi    link linenr       statusline
 hi    link pmenu        statusline
 hi    link pmenusbar    statusline
-hi    link pmenuthumb   statusline
 hi    link statuslinenc statusline
 hi    link tabline      statusline
 hi    link tablinefill  statusline
