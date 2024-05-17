@@ -29,7 +29,7 @@ set   laststatus=2   " always show status line
 set nonumber   " hide line number
 set   pumheight=16
 set   ruler
-set   rulerformat=%20(%7(%l%)/%-8(%L,%)%v%)
+set   rulerformat=%20(%7(%l%)/%L,%v%)
 set   scrolloff=3   " scroll before some lines
 set   shortmess=filmnxtToO
 set   showcmd   " display command input
@@ -54,8 +54,6 @@ set   mouse=
 
 " map keys
 nnoremap K <nop>
-nnoremap N Nzz
-nnoremap n nzz
 
 color c513
 syntax on
