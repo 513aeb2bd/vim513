@@ -54,6 +54,8 @@ set   mouse=
 
 " map keys
 nnoremap K <nop>
+nnoremap Q <nop>
+nnoremap Z <nop>
 
 color c513
 syntax on
