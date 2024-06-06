@@ -94,7 +94,6 @@ hi    link incsearch    search
 hi    link matchparen   search
 hi specialkey   cterm=bold      ctermfg=6           guifg=#68d8d8
 hi    link nontext      specialkey
-hi    link todo         specialkey
 hi statement    cterm=bold      ctermfg=5           guifg=#d868d8
 hi statusline                   ctermfg=3           guifg=#909040
 hi    link endofbuffer  statusline
@@ -110,8 +109,9 @@ hi    link structure    storageclass
 hi    link typedef      storageclass
 hi string       cterm=bold      ctermfg=1           guifg=#d86868
 hi    link special      string
+hi todo                         ctermfg=1 ctermbg=6 guifg=#000000 guibg=#409090
 hi underlined   cterm=underline
-hi visual       cterm=nocombine ctermfg=0 ctermbg=6 guifg=#000000 guibg=#409090
+hi visual       cterm=nocombine ctermfg=0 ctermbg=4 guifg=#000000 guibg=#404090
 hi wildmenu     cterm=bold      ctermfg=6           guifg=#68d8d8
 hi    link modemsg      wildmenu
 hi    link moremsg      wildmenu
