@@ -6,9 +6,8 @@ endif
 
 let g:colors_name = "cdetch"
 
-" .
-
-" .
+" ######################################################################
+" ######################################################################
 
 " general
 
@@ -72,13 +71,12 @@ hi comment      cterm=bold      ctermfg=0           guifg=#606060
 hi    link ignore       comment
 hi constant     cterm=bold      ctermfg=4           guifg=#6868d8
 hi diffadd      cterm=bold      ctermfg=2           guifg=#68d868
-hi diffchange   cterm=bold      ctermfg=4           guifg=#6868d8
-hi    link difftext     diffchange
+hi difftext     cterm=bold      ctermfg=4           guifg=#6868d8
 hi diffdelete   cterm=bold      ctermfg=1           guifg=#d86868
 hi error        cterm=bold      ctermfg=1           guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded                       ctermfg=2           guifg=#409040
+hi folded       cterm=bold      ctermfg=2           guifg=#409040
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
 hi label                        ctermfg=6           guifg=#409090
@@ -109,9 +107,9 @@ hi    link structure    storageclass
 hi    link typedef      storageclass
 hi string       cterm=bold      ctermfg=1           guifg=#d86868
 hi    link special      string
-hi todo                         ctermfg=1 ctermbg=6 guifg=#000000 guibg=#409090
+hi todo                         ctermfg=0 ctermbg=6 guifg=#000000 guibg=#409090
 hi underlined   cterm=underline
-hi visual       cterm=nocombine ctermfg=0 ctermbg=4 guifg=#000000 guibg=#404090
+hi visual       cterm=nocombine ctermfg=7 ctermbg=4 guifg=#b8b8b8 guibg=#404090
 hi wildmenu     cterm=bold      ctermfg=6           guifg=#68d8d8
 hi    link modemsg      wildmenu
 hi    link moremsg      wildmenu
@@ -119,9 +117,8 @@ hi    link pmenusel     wildmenu
 hi    link question     wildmenu
 hi    link tablinesel   wildmenu
 
-" .
-
-" .
+" ######################################################################
+" ######################################################################
 
 " intel hex
 
