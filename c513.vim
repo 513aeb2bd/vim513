@@ -76,7 +76,7 @@ hi diffdelete   cterm=bold      ctermfg=1           guifg=#d86868
 hi error        cterm=bold      ctermfg=1           guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded       cterm=bold      ctermfg=2           guifg=#409040
+hi folded       cterm=bold      ctermfg=3           guifg=#d8d868
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
 hi label                        ctermfg=6           guifg=#409090
