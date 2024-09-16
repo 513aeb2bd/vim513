@@ -49,6 +49,8 @@ hi clear specialkey
 hi clear statement
 hi clear statusline
 hi clear statuslinenc
+hi clear statuslineterm
+hi clear statuslinetermnc
 hi clear storageclass
 hi clear string
 hi clear structure
@@ -64,54 +66,56 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-hi character    cterm=bold      ctermfg=1           guifg=#d86868
-hi colorcolumn  cterm=nocombine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#909040
+hi character    cterm=bold         ctermfg=1           guifg=#d86868
+hi colorcolumn  cterm=nocombine    ctermfg=0 ctermbg=3 guifg=#000000 guibg=#909040
 hi    link pmenuthumb   colorcolumn
-hi comment      cterm=bold      ctermfg=0           guifg=#606060
+hi comment      cterm=bold         ctermfg=0           guifg=#606060
 hi    link ignore       comment
-hi constant     cterm=bold      ctermfg=4           guifg=#6868d8
-hi diffadd      cterm=bold      ctermfg=2           guifg=#68d868
-hi difftext     cterm=bold      ctermfg=4           guifg=#6868d8
-hi diffdelete   cterm=bold      ctermfg=1           guifg=#d86868
-hi error        cterm=bold      ctermfg=1           guifg=#d86868
+hi constant     cterm=bold         ctermfg=4           guifg=#6868d8
+hi diffadd      cterm=bold         ctermfg=2           guifg=#68d868
+hi difftext     cterm=bold         ctermfg=4           guifg=#6868d8
+hi diffdelete   cterm=bold         ctermfg=1           guifg=#d86868
+hi error        cterm=bold         ctermfg=1           guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded       cterm=bold      ctermfg=3           guifg=#d8d868
+hi folded       cterm=bold         ctermfg=3           guifg=#d8d868
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
-hi label                        ctermfg=6           guifg=#409090
-hi normal                       ctermfg=7           guifg=#b8b8b8
+hi label                           ctermfg=6           guifg=#409090
+hi modemsg      cterm=bold,reverse ctermfg=3           guifg=#000000 guibg=#d8d8b8
+hi normal                          ctermfg=7           guifg=#b8b8b8
 hi    link identifier   normal
 hi    link operator     normal
 hi    link title        normal
 hi    link type         normal
-hi preproc                      ctermfg=2           guifg=#409040
+hi preproc                         ctermfg=2           guifg=#409040
 hi    link directory    preproc
-hi search       cterm=bold      ctermfg=3           guifg=#d8d868
+hi search       cterm=bold         ctermfg=3           guifg=#d8d868
 hi    link incsearch    search
 hi    link matchparen   search
-hi specialkey   cterm=bold      ctermfg=6           guifg=#68d8d8
+hi specialkey   cterm=bold         ctermfg=6           guifg=#68d8d8
 hi    link nontext      specialkey
-hi statement    cterm=bold      ctermfg=5           guifg=#d868d8
-hi statusline                   ctermfg=3           guifg=#909040
-hi    link endofbuffer  statusline
-hi    link linenr       statusline
-hi    link pmenu        statusline
-hi    link pmenusbar    statusline
-hi    link statuslinenc statusline
-hi    link tabline      statusline
-hi    link tablinefill  statusline
-hi    link vertsplit    statusline
-hi storageclass                 ctermfg=6           guifg=#409090
+hi statement    cterm=bold         ctermfg=5           guifg=#d868d8
+hi statusline                      ctermfg=3           guifg=#909040
+hi    link endofbuffer      statusline
+hi    link linenr           statusline
+hi    link pmenu            statusline
+hi    link pmenusbar        statusline
+hi    link statuslinenc     statusline
+hi    link statuslineterm   statusline
+hi    link statuslinetermnc statusline
+hi    link tabline          statusline
+hi    link tablinefill      statusline
+hi    link vertsplit        statusline
+hi storageclass                    ctermfg=6           guifg=#409090
 hi    link structure    storageclass
 hi    link typedef      storageclass
-hi string       cterm=bold      ctermfg=1           guifg=#d86868
+hi string       cterm=bold         ctermfg=1           guifg=#d86868
 hi    link special      string
-hi todo                         ctermfg=0 ctermbg=6 guifg=#000000 guibg=#409090
+hi todo         cterm=reverse,bold ctermfg=6           guifg=#000000 guibg=#409090
 hi underlined   cterm=underline
-hi visual       cterm=nocombine ctermfg=7 ctermbg=4 guifg=#b8b8b8 guibg=#404090
-hi wildmenu     cterm=bold      ctermfg=6           guifg=#68d8d8
-hi    link modemsg      wildmenu
+hi visual       cterm=nocombine    ctermfg=7 ctermbg=4 guifg=#b8b8b8 guibg=#404090
+hi wildmenu     cterm=bold         ctermfg=6           guifg=#68d8d8
 hi    link moremsg      wildmenu
 hi    link pmenusel     wildmenu
 hi    link question     wildmenu
