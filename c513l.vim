@@ -6,9 +6,8 @@ endif
 
 let g:colors_name = "cdetchl"
 
-" .
-
-" .
+" ######################################################################
+" ######################################################################
 
 " general
 
@@ -67,56 +66,56 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-" none 0: 232
-" none 1: 
-" none 2: 28
-" none 3: 58
-" none 4: 104
-" none 5: 
-" none 6: 23
+" none 0: 16
+" none 1: 167
+" none 2: 34
+" none 3: 228
+" none 4: 68
+" none 5: 213
+" none 6: 30
 " none 7: 250
 
-" bold 0: 242
+" bold 0: 243
 " bold 1: 124
-" bold 2: 34
-" bold 3: 186
+" bold 2: 22
+" bold 3: 130
 " bold 4: 26
-" bold 5: 127
-" bold 6: 31
+" bold 5: 165
+" bold 6: 159
 " bold 7: 231
 
-hi character                    ctermfg=167
-hi colorcolumn  cterm=nocombine ctermfg=232 ctermbg=101
+hi character                    ctermfg=124
+hi colorcolumn  cterm=nocombine ctermfg=16  ctermbg=243
 hi    link pmenuthumb       colorcolumn
-hi comment                      ctermfg=242
+hi comment                      ctermfg=243
 hi    link ignore           comment
 hi constant                     ctermfg=26
 hi diffadd                      ctermfg=34
 hi diffdelete                   ctermfg=124
-hi difftext                     ctermfg=232 ctermbg=104
+hi difftext                     ctermfg=16  ctermbg=68
 hi error                        ctermfg=124
 hi    link errormsg         error
 hi    link warningmsg       error
-hi folded                       ctermfg=232 ctermbg=186
+hi folded                       ctermfg=16  ctermbg=228
 hi    link foldcolumn       folded
 hi    link signcolumn       folded
 hi label                        ctermfg=30
-hi modemsg                      ctermfg=232 ctermbg=186
-hi normal                       ctermfg=232 ctermbg=250
+hi modemsg                      ctermfg=16  ctermbg=228
+hi normal                       ctermfg=16  ctermbg=250
 hi    link identifier       normal
 hi    link operator         normal
 hi    link title            normal
 hi    link type             normal
-hi preproc                      ctermfg=28
+hi preproc                      ctermfg=22
 hi    link directory        preproc
-hi search                       ctermfg=232 ctermbg=186
+hi search                       ctermfg=16  ctermbg=228
 hi    link incsearch        search
 hi    link matchparen       search
-hi specialkey                   ctermfg=31
+hi specialkey                   ctermfg=130
 hi    link nontext          specialkey
 hi    link endofbuffer      specialkey
-hi statement                    ctermfg=127
-hi statusline                   ctermfg=58
+hi statement                    ctermfg=165
+hi statusline                   ctermfg=130
 hi    link linenr           statusline
 hi    link pmenu            statusline
 hi    link pmenusbar        statusline
@@ -126,23 +125,22 @@ hi    link statuslinetermnc statusline
 hi    link tabline          statusline
 hi    link tablinefill      statusline
 hi    link vertsplit        statusline
-hi storageclass                 ctermfg=23
+hi storageclass                 ctermfg=30
 hi    link structure        storageclass
 hi    link typedef          storageclass
 hi string                       ctermfg=124
 hi    link special          string
-hi todo                         ctermfg=232 ctermbg=31
+hi todo                         ctermfg=16  ctermbg=159
 hi underlined   cterm=underline
-hi visual       cterm=nocombine ctermfg=232 ctermbg=104
-hi wildmenu                     ctermfg=31
+hi visual       cterm=nocombine ctermfg=231 ctermbg=68
+hi wildmenu                     ctermfg=159
 hi    link moremsg          wildmenu
 hi    link pmenusel         wildmenu
 hi    link question         wildmenu
 hi    link tablinesel       wildmenu
 
-" .
-
-" .
+" ######################################################################
+" ######################################################################
 
 " intel hex
 
