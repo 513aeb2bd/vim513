@@ -4,10 +4,9 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let g:colors_name = "cdetch"
+let g:colors_name = "c513"
 
-" ######################################################################
-" ######################################################################
+" .
 
 " general
 
@@ -66,63 +65,62 @@ hi clear visual
 hi clear warningmsg
 hi clear wildmenu
 
-hi character    cterm=bold         ctermfg=1           guifg=#d86868
-hi colorcolumn  cterm=nocombine    ctermfg=0 ctermbg=3 guifg=#000000 guibg=#909040
+hi character                       ctermfg=9             guifg=#d86868
+hi colorcolumn  cterm=nocombine    ctermfg=0  ctermbg=3  guifg=#000000 guibg=#909040
 hi    link pmenuthumb   colorcolumn
-hi comment      cterm=bold         ctermfg=0           guifg=#606060
+hi comment                         ctermfg=8             guifg=#606060
 hi    link ignore       comment
-hi constant     cterm=bold         ctermfg=4           guifg=#6868d8
-hi diffadd      cterm=bold         ctermfg=2           guifg=#68d868
-hi difftext     cterm=bold         ctermfg=4           guifg=#6868d8
-hi diffdelete   cterm=bold         ctermfg=1           guifg=#d86868
-hi error        cterm=bold         ctermfg=1           guifg=#d86868
+hi    link tabline      comment
+hi constant                        ctermfg=12            guifg=#6868d8
+hi diffadd      cterm=nocombine    ctermfg=0  ctermbg=10 guifg=#000000 guibg=#68d868
+hi diffdelete   cterm=nocombine    ctermfg=0  ctermbg=9  guifg=#000000 guibg=#d86868
+hi difftext     cterm=nocombine    ctermfg=0  ctermbg=12 guifg=#000000 guibg=#6868d8
+hi error                           ctermfg=9             guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded       cterm=bold         ctermfg=3           guifg=#d8d868
+hi folded                          ctermfg=3             guifg=#909040
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
-hi label                           ctermfg=6           guifg=#409090
-hi modemsg      cterm=bold,reverse ctermfg=3           guifg=#000000 guibg=#d8d8b8
-hi normal                          ctermfg=7           guifg=#b8b8b8
+hi label                           ctermfg=6             guifg=#409090
+hi modemsg                         ctermfg=0  ctermbg=3  guifg=#000000 guibg=#909040
+hi normal                          ctermfg=7             guifg=#b8b8b8
 hi    link identifier   normal
-hi    link operator     normal
 hi    link title        normal
-hi    link type         normal
-hi preproc                         ctermfg=2           guifg=#409040
+hi preproc                         ctermfg=2             guifg=#409040
 hi    link directory    preproc
-hi search       cterm=bold         ctermfg=3           guifg=#d8d868
+hi search                          ctermfg=11            guifg=#d8d868
 hi    link incsearch    search
 hi    link matchparen   search
-hi specialkey   cterm=bold         ctermfg=6           guifg=#68d8d8
+hi special                         ctermfg=1             guifg=#904040
+hi specialkey                      ctermfg=6             guifg=#409090
 hi    link nontext      specialkey
-hi statement    cterm=bold         ctermfg=5           guifg=#d868d8
-hi statusline                      ctermfg=3           guifg=#909040
-hi    link endofbuffer      statusline
+hi    link endofbuffer  specialkey
+hi statement                       ctermfg=13             guifg=#d868d8
+hi statusline                      ctermfg=11             guifg=#d8d868
 hi    link linenr           statusline
 hi    link pmenu            statusline
 hi    link pmenusbar        statusline
 hi    link statuslinenc     statusline
 hi    link statuslineterm   statusline
 hi    link statuslinetermnc statusline
-hi    link tabline          statusline
 hi    link tablinefill      statusline
+hi    link tablinesel       statusline
 hi    link vertsplit        statusline
-hi storageclass                    ctermfg=6           guifg=#409090
-hi    link structure    storageclass
-hi    link typedef      storageclass
-hi string       cterm=bold         ctermfg=1           guifg=#d86868
-hi    link special      string
-hi todo         cterm=reverse,bold ctermfg=6           guifg=#000000 guibg=#409090
+hi storageclass                    ctermfg=13            guifg=#d868d8
+hi string                          ctermfg=9             guifg=#d86868
+hi todo                            ctermfg=0  ctermbg=14 guifg=#000000 guibg=#68d8d8
+hi type                            ctermfg=6             guifg=#68d8d8
+hi    link operator     type
+hi    link structure    type
+hi    link typedef      type
 hi underlined   cterm=underline
-hi visual       cterm=nocombine    ctermfg=7 ctermbg=4 guifg=#b8b8b8 guibg=#404090
-hi wildmenu     cterm=bold         ctermfg=6           guifg=#68d8d8
+hi visual       cterm=nocombine    ctermfg=15 ctermbg=4  guifg=#d8d8d8 guibg=#404090
+hi wildmenu                        ctermfg=14            guifg=#68d8d8
 hi    link moremsg      wildmenu
 hi    link pmenusel     wildmenu
 hi    link question     wildmenu
-hi    link tablinesel   wildmenu
 
-" ######################################################################
-" ######################################################################
+" .
 
 " intel hex
 
