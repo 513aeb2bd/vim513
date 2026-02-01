@@ -1,0 +1,15 @@
+caption always "%n %t"
+hardstatus off
+maptimeout 0
+msgwait 5
+term screen
+termcapinfo linux 'Co#16:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+vbell off
+
+bind h focus left
+bind l focus right
+bind j focus down
+bind k focus up
+
+bind t layout next
+bind T layout prev

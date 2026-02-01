@@ -72,13 +72,13 @@ hi comment                         ctermfg=8             guifg=#606060
 hi    link ignore       comment
 hi    link tabline      comment
 hi constant                        ctermfg=12            guifg=#6868d8
-hi diffadd      cterm=nocombine    ctermfg=0  ctermbg=10 guifg=#000000 guibg=#68d868
-hi diffdelete   cterm=nocombine    ctermfg=0  ctermbg=9  guifg=#000000 guibg=#d86868
-hi difftext     cterm=nocombine    ctermfg=0  ctermbg=12 guifg=#000000 guibg=#6868d8
+hi diffadd      cterm=nocombine    ctermfg=0  ctermbg=2  guifg=#000000 guibg=#68d868
+hi diffdelete   cterm=nocombine    ctermfg=0  ctermbg=1  guifg=#000000 guibg=#d86868
+hi difftext     cterm=nocombine    ctermfg=0  ctermbg=4  guifg=#000000 guibg=#6868d8
 hi error                           ctermfg=9             guifg=#d86868
 hi    link errormsg     error
 hi    link warningmsg   error
-hi folded                          ctermfg=3             guifg=#909040
+hi folded                          ctermfg=11            guifg=#d8d868
 hi    link foldcolumn   folded
 hi    link signcolumn   folded
 hi label                           ctermfg=6             guifg=#409090
@@ -96,7 +96,7 @@ hi specialkey                      ctermfg=6             guifg=#409090
 hi    link nontext      specialkey
 hi    link endofbuffer  specialkey
 hi statement                       ctermfg=13             guifg=#d868d8
-hi statusline                      ctermfg=11             guifg=#d8d868
+hi statusline                      ctermfg=3              guifg=#909040
 hi    link linenr           statusline
 hi    link pmenu            statusline
 hi    link pmenusbar        statusline
@@ -108,7 +108,7 @@ hi    link tablinesel       statusline
 hi    link vertsplit        statusline
 hi storageclass                    ctermfg=13            guifg=#d868d8
 hi string                          ctermfg=9             guifg=#d86868
-hi todo                            ctermfg=0  ctermbg=14 guifg=#000000 guibg=#68d8d8
+hi todo                            ctermfg=0  ctermbg=6  guifg=#000000 guibg=#68d8d8
 hi type                            ctermfg=6             guifg=#68d8d8
 hi    link operator     type
 hi    link structure    type
